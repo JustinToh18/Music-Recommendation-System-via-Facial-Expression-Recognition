@@ -136,14 +136,14 @@ def main():
     
     if choice == "Home":
         st.markdown("<h2 style='text-align: center; color: white; font-size:40px'>Home</h2>", unsafe_allow_html=True)
-        image = Image.open(r'images\homepage2.jpg')
+        image = Image.open('images\homepage2.jpg')
         st.image(image, caption='Enjoy quality music recommendation with our app')
         st.write("")
         st.write("")
         st.markdown("***")
         st.markdown("<h1 style='text-align: center; color: white; background-color:#8B0000; font-size:40px'>About</h1>", unsafe_allow_html=True)
         st.write("")
-        image = Image.open(r'images\homepage.jpg')
+        image = Image.open('images\homepage.jpg')
         st.image(image)
         
         st.markdown("<h1 style='text-align: justify; color: white;font-weight: normal; font-size:18px; line-height:1.8'>There is a problem in Malaysia where many people are facing mental depression problems especially during the COVID-19 pandemic. Despite having access to many different entertainment methods and treatment, there is still a large growth in people suffering from mental illness. Hence, causing heavy and negative impact to many especially the adolescents. One possible cause of the problem was people were not able to easily identify the symptoms of mental illness. Hence, technology will be utilized to tackle this problem. Once their mental illness has been identified, music will play a significant role in improving their mood as music deeply connects to our life. Hence, music has the potential healing factor to the problem. This has facilitated the development of Music Recommendation System via Facial Expression Recognition which can allow users to identify their emotional state and enhance their mood whenever they like.  </h1>", unsafe_allow_html=True)
