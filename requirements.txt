@@ -7,7 +7,7 @@ numpy==1.22.4
 matplotlib-inline==0.1.6
 sklearn==0.0
 scikit-image==0.18.1
-keras==2.10.0
+keras==2.9.0
 
 
 
