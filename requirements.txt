@@ -8,7 +8,7 @@ matplotlib-inline==0.1.6
 sklearn==0.0
 scikit-image==0.18.1
 keras==2.9.0
-
+av==9.2.0
 
 
 
